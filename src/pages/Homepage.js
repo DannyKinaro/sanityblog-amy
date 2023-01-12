@@ -68,7 +68,7 @@ export default function Homepage() {
                 )}...`}</p>
 
                 <Link to={`/blog/${stories[0].slug.current}`}>
-                  <button className="bg-slate-700 my-5 py-2 px-4 rounded text-slate-100 tracking-wide hover:opacity-75 transition-all duration-200">
+                  <button className="bg-slate-0 border-2 bg-transparent border-slate-700  my-5 py-2 px-4 rounded text-slate-700 tracking-wide hover:bg-slate-700  hover:text-slate-100 transition-all duration-200">
                     Read More
                   </button>
                 </Link>

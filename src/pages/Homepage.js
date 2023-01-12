@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
-import Newsletter from "../components/Newsletter";
 import Profile from "../components/Profile";
 import { client } from "../lib/client";
 import { format } from "date-fns";
@@ -114,7 +113,6 @@ export default function Homepage() {
           Read More Blog Posts
         </button>
       </Link>
-      <Newsletter />
       <Profile />
       <Footer />
     </>

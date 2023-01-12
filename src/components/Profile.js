@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Profile() {
   return (
     <>
-      <div className="max-w-2xl my-20 mx-auto 2xl,xl,lg:grid grid-cols-1 s:mx-5 md:gap-8 bg-white md:grid-cols-2 rounded-lg shadow-lg md:place-items-center overflow-hidden dark:bg-slate-300">
+      <div className="max-w-2xl my-20 mx-auto 2xl,xl,lg:grid grid-cols-1 s:mx-5 md:gap-8 bg-gradient-to-r from-red-200 to-pink-500 md:grid-cols-2 rounded-lg shadow-lg md:place-items-center overflow-hidden dark:bg-slate-300">
         <article className="md:gap-8">
           <span className="px-10 py-10 flex flex-col items-center">
             <h3 className="text-2xl mb-4 flex dark:text-slate-900">Amy Mumbi</h3>

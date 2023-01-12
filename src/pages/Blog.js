@@ -53,7 +53,7 @@ export default function Blog() {
       <section className="  grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-5 ">
         {stories.map((story) => (
           <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
-            <article className="border-slate-800 rounded-lg overflow-hidden dark:bg-slate-800 dark:hover:bg-slate-700 transition-all duration-500">
+            <article className="hover:bg-slate-200 border-slate-800 rounded-lg overflow-hidden dark:bg-slate-800 dark:hover:bg-slate-700 transition-all duration-500">
               {story.mainImage && (
                 <img
                   src={story.mainImage.asset.url}

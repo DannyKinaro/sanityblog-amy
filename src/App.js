@@ -3,6 +3,7 @@ import Homepage from "./pages/Homepage";
 import Blog from "./pages/Blog";
 import Blogpost from "./pages/Blogpost";
 import Error from "./pages/Error";
+import Devplug from "./Devplug";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
           <Route path="/blog/:slug" element={<Blogpost />}></Route>
           <Route path="*" element={<Error />}></Route>
         </Routes>
+        <Devplug/>
       </BrowserRouter>
     </>
   );

@@ -89,6 +89,7 @@ export default function Blog() {
         <Profile />
         <Footer />
       </div>
+      <Devplug/>
     </>
   );
 }

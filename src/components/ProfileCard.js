@@ -11,8 +11,10 @@ export default function Profile() {
           <span className="px-10 py-10 flex flex-col items-center">
             <h3 className="text-2xl mb-4 flex dark:text-slate-900">Amy Mumbi</h3>
             <p className="dark:text-slate-900">
-              Is a student at law, human rights enthusiast and advocate based in
-              Nairobi Kenya.
+              She is a creative writer and poet with an alluring and pulse-setting style of writing that she hopes invokes emotion
+            </p>
+            <p>
+              Follow her on her social media platfroms to catch up on more of her work and life
             </p>
           </span>
 

@@ -86,7 +86,7 @@ export default function Blog() {
             Back to Home Page
           </button>
         </Link>
-        <Profile />
+        <ProfileCard />
         <Footer />
       </div>
     </>

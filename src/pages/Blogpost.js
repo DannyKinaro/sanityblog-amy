@@ -78,7 +78,7 @@ export default function Blogpost() {
           Read More Blog Posts
         </button>
       </Link>
-      <Profile />
+      <ProfileCard/>
       <Footer />
     </>
   );

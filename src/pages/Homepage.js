@@ -113,7 +113,7 @@ export default function Homepage() {
           Read More Blog Posts
         </button>
       </Link>
-      <Profile />
+      <ProfileCard />
       <Footer />
     </>
   );

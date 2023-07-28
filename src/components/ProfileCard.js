@@ -13,7 +13,7 @@ export default function Profile() {
             <p className="dark:text-slate-900">
               She is a creative writer and poet with an alluring and pulse-setting style of writing that she hopes invokes emotion
             </p>
-            <p>
+            <p className="dark:text-slate-900">
               Follow her on her social media platfroms to catch up on more of her work and life
             </p>
           </span>

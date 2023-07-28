@@ -3,7 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { client } from "../lib/client";
 import { format } from "date-fns";
 import { PortableText } from "@portabletext/react";
-import Profile from "../components/Profile";
+import ProfileCard from "../components/ProfileCard";
 import Footer from "../components/Footer";
 
 export default function Blogpost() {

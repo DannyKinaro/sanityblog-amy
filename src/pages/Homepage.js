@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Footer from "../components/Footer";
-import Profile from "../components/Profile";
+import ProfileCard from "../components/ProfileCard";
 import { client } from "../lib/client";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";

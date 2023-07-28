@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { client } from "../lib/client";
 import { format } from "date-fns";
 import { Link } from "react-router-dom";
-import Profile from "../components/Profile";
+import ProfileCard from "../components/ProfileCard";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 

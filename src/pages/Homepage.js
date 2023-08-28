@@ -98,7 +98,7 @@ export default function Homepage() {
                 </p>
                 <h2 className="text-xl mt-2 mb-1 dark:text-slate-300">{story.title}</h2>
                 <p className="text-sm  leading-relaxed">
-                  {`${story.body[0].children[0].text.substring(0, 200)}...`}
+                  {`${story.body[0].children[0].text.substring(0, 80)}...`}
                 </p>
               </div>
             </article>

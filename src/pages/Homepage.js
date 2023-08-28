@@ -59,11 +59,12 @@ export default function Homepage() {
               <section className="border-t-4 dark:border-slate-700 max-w-4xl mx-auto mt-10"></section>
 
               <div className="absolute bottom-8 left-8 md:w-1/2">
-                <h1 className="text-xl lg:text-5xl mb-20 text-white uppercase">
+                <h1 className="text-xl lg:text-5xl mb-6 text-white uppercase">
                   {stories[0].title}
                 </h1>
-                <p className="text-white mx-3 mb-20">{`${stories[0].body[0].children[0].text.substring(
-                  0,80
+                <p className="text-white mx-3">{`${stories[0].body[0].children[0].text.substring(
+                  0,
+                  200
                 )}...`}</p>
 
                 <Link to={`/blog/${stories[0].slug.current}`}>
@@ -80,7 +81,7 @@ export default function Homepage() {
       <section className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto px-5 mb-5">
         {stories.map((story) => (
           <Link to={`/blog/${story.slug.current}`} key={story.slug.current}>
-            <article className="border-slate-700 mb-4 rounded-lg overflow-hidden hover:bg-slate-300 hover:dark:bg-slate-700 transition-all duration-500">
+            <article className="border-slate-700 rounded-lg overflow-hidden hover:bg-slate-300 hover:dark:bg-slate-700 transition-all duration-500">
               {story.mainImage && (
                 <img
                   src={story.mainImage.asset.url}
@@ -97,7 +98,7 @@ export default function Homepage() {
                 </p>
                 <h2 className="text-xl mt-2 mb-1 dark:text-slate-300">{story.title}</h2>
                 <p className="text-sm  leading-relaxed">
-                  {`${story.body[0].children[0].text.substring(0, 80)}...`}
+                  {`${story.body[0].children[0].text.substring(0, 200)}...`}
                 </p>
               </div>
             </article>
